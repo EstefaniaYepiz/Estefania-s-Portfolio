@@ -1,0 +1,36 @@
+.about {
+	padding: 6rem 2rem;
+}
+
+.about__container {
+	max-width: 1100px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 1fr 1.4fr;
+	gap: 3rem;
+}
+
+.about__title p {
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	color: #b998ff;
+	font-size: 0.8rem;
+}
+
+.about__title h2 {
+	margin-top: 1rem;
+	font-size: 2.5rem;
+}
+
+.about__content p {
+	font-size: 1.1rem;
+	line-height: 1.9;
+	color: rgba(255, 255, 255, 0.75);
+	margin-bottom: 1.5rem;
+}
+
+@media (max-width: 900px) {
+	.about__container {
+		grid-template-columns: 1fr;
+	}
+}

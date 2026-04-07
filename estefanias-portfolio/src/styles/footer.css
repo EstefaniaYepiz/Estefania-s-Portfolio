@@ -1,0 +1,35 @@
+.footer {
+	padding: 2rem 2rem 3rem;
+}
+
+.footer__container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-top: 1.5rem;
+	border-top: 1px solid rgba(255, 255, 255, 0.08);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+	flex-wrap: wrap;
+}
+
+.footer__container p {
+	color: rgba(255, 255, 255, 0.58);
+	font-size: 0.95rem;
+}
+
+.footer__links {
+	display: flex;
+	gap: 1.25rem;
+	flex-wrap: wrap;
+}
+
+.footer__links a {
+	color: rgba(255, 255, 255, 0.72);
+	transition: color 0.25s ease;
+}
+
+.footer__links a:hover {
+	color: #b998ff;
+}
