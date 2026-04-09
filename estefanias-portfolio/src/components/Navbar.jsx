@@ -34,7 +34,7 @@ function Navbar() {
 					Contact
 				</a>
 				<a
-					href="/resume.pdf"
+					href="../../public/Resume.pdf"
 					target="_blank"
 					rel="noreferrer"
 					className="navbar__resume"

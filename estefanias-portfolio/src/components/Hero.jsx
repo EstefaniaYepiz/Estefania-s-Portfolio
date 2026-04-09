@@ -41,7 +41,7 @@ function Hero() {
 								Contact Me
 							</a>
 							<a
-								href="/resume.pdf"
+								href="../../public/Resume.pdf"
 								target="_blank"
 								rel="noreferrer"
 								className="hero__btn hero__btn--secondary"

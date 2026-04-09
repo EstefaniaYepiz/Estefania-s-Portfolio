@@ -47,7 +47,7 @@ function Contact() {
 					</a>
 
 					<a
-						href="/resume.pdf"
+						href="../../public/Resume.pdf"
 						target="_blank"
 						rel="noreferrer"
 						className="contact__btn contact__btn--secondary"
