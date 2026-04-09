@@ -6,10 +6,22 @@ export const projects = [
 		details:
 			"This project was built as a real-world private event website with protected access, RSVP functionality, admin tools, and media uploads. For portfolio purposes, a demo-safe version was created with sensitive features limited or removed.",
 		stack: ["React", "Supabase", "CSS"],
-		live: "https://private-event-platform-n6n88h8he-estefaniayepizs-projects.vercel.app/",
+		live: "https://private-event-platform-3yi6cd4nh-estefaniayepizs-projects.vercel.app/",
 		github: "https://github.com/EstefaniaYepiz/Private-Event-Platform",
 		image: "/Images/wedding.png",
 		status: "featured",
+	},
+	{
+		title: "Multi-porpose Layered Carousel",
+		description:
+			"Layered carousel component with parallax effect, designed for showcasing content in a visually engaging way.",
+		details:
+			"This page was designed as a layered carousel component with a parallax effect, intended to showcase content in a visually engaging way. It features smooth transitions and responsive design for an optimal user experience.",
+		stack: ["React", "JavaScript", "Tailwind CSS"],
+		live: "https://layered-carousel-landing-page.vercel.app/",
+		github: "https://github.com/EstefaniaYepiz/layered-carousel-landing-page",
+		image: "/Images/carousel.png",
+		status: "secondary",
 	},
 	{
 		title: "Multi-List Task Manager",
