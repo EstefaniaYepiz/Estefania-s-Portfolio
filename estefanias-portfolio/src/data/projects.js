@@ -23,18 +23,7 @@ export const projects = [
 		image: "/Images/carousel.png",
 		status: "secondary",
 	},
-	{
-		title: "Multi-List Task Manager",
-		description:
-			"A flexible list management app for groceries or tasks, with multiple lists, item tracking, and editing features.",
-		details:
-			"This app was designed as a flexible multi-list manager that can be used for grocery planning or general task organization. It includes list creation, editing, item tracking, and stock-style management.",
-		stack: ["React", "JavaScript", "CSS"],
-		live: "#",
-		github: "#",
-		image: "/Images/MultiList.png",
-		status: "secondary",
-	},
+
 	{
 		title: "Streamer Landing Page",
 		description:
@@ -42,21 +31,50 @@ export const projects = [
 		details:
 			"A lightweight landing page focused on personal branding, responsive design, and clean visual presentation for content and social links.",
 		stack: ["HTML", "CSS"],
-		live: "#",
-		github: "#",
-		image: "/Images/Stream.png",
+		live: "https://omikiwi.netlify.app/",
+		github: "https://github.com/EstefaniaYepiz/Socials",
+		image: "/Images/streamPage.png",
 		status: "secondary",
 	},
 	{
-		title: "Admin Dashboard",
+		title: "1 Page modern landing page",
 		description:
-			"Dashboard interface focused on data organization and management workflows. Currently in progress.",
+			"A clean and responsive landing page built with React, featuring a refined neutral design, smooth transitions, and a professional layout for modern brands.",
 		details:
-			"This dashboard project is still in progress and is focused on improving data visibility, management workflows, and interface clarity.",
-		stack: ["React", "CSS"],
+			"A minimalist and elegant landing page crafted to deliver a strong first impression through clean design and subtle visual details. Featuring a cohesive neutral palette, soft gradients, and structured content sections, this project highlights the ability to build modern, user-focused interfaces that feel both refined and approachable.",
+		stack: ["HTML", "CSS", "React"],
+		live: "https://1-page-modern-landing-page-m6qzx026l-estefaniayepizs-projects.vercel.app/",
+		github: "https://github.com/EstefaniaYepiz/1-page-modern-landing-page",
+		image: "/Images/landingPage.png",
+		status: "secondary",
+	},
+	{
+		title: "Multi-List Task Manager",
+		description:
+			"A flexible list management app for groceries or tasks, with multiple lists, item tracking, and editing features.",
+		details:
+			"This app was designed as a flexible multi-list manager that can be used for grocery planning or general task organization. It includes list creation, editing, item tracking, and stock-style management. I'm currently still working on it since it started as a grocery shopping list but then I thought it would look better as a more general task manager, so I have been adding features and improving the design, but I still have some ideas to implement and polish.",
+		stack: ["React", "JavaScript", "CSS"],
 		live: "#",
-		github: "#",
-		image: "/Images/AdminDashboard.png",
+		github: "https://github.com/EstefaniaYepiz/Grocery-shopping-list",
+		image: "/Images/taskList.png",
+		status: "in-progress",
+	},
+	{
+		title: "Admin Dashboard (Ongoing)",
+		description:
+			"A scalable admin panel built with Next.js featuring user management, dynamic routing, search/filtering, pagination, and dark mode.",
+		details:
+			"A modern admin dashboard built with Next.js and React, designed to simulate real-world admin panel functionality.The application includes a fully functional user management system with CRUD operations, dynamic routing for user details, and advanced UI features such as search, filtering, sorting, and pagination. Data is persisted using localStorage to simulate backend behavior. The dashboard is structured using reusable components and shared layouts, ensuring scalability and maintainability. A dark mode system is also implemented to enhance user experience. This project is actively evolving, with planned improvements including backend integration, authentication, and advanced analytics.",
+		stack: [
+			"Next.js (App Router)",
+			"React",
+			"JavaScript (ES6+)",
+			"CSS Modules",
+		],
+		live: "https://amind-dashboard-652nvf2c0-estefaniayepizs-projects.vercel.app/dashboard",
+		github: "https://github.com/EstefaniaYepiz/Amind-Dashboard",
+		image: "/Images/dashboard.png",
 		status: "in-progress",
 	},
 ];
