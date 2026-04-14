@@ -23,7 +23,23 @@ export const projects = [
 		image: "/Images/carousel.png",
 		status: "secondary",
 	},
-
+	{
+		title: "Admin Dashboard (Ongoing)",
+		description:
+			"A scalable admin panel built with Next.js featuring user management, dynamic routing, search/filtering, pagination, and dark mode.",
+		details:
+			"A modern admin dashboard built with Next.js and React, designed to simulate real-world admin panel functionality.The application includes a fully functional user management system with CRUD operations, dynamic routing for user details, and advanced UI features such as search, filtering, sorting, and pagination. Data is persisted using localStorage to simulate backend behavior. The dashboard is structured using reusable components and shared layouts, ensuring scalability and maintainability. A dark mode system is also implemented to enhance user experience. This project is actively evolving, with planned improvements including backend integration, authentication, and advanced analytics.",
+		stack: [
+			"Next.js (App Router)",
+			"React",
+			"JavaScript (ES6+)",
+			"CSS Modules",
+		],
+		live: "https://amind-dashboard-652nvf2c0-estefaniayepizs-projects.vercel.app/dashboard",
+		github: "https://github.com/EstefaniaYepiz/Amind-Dashboard",
+		image: "/Images/dashboard.png",
+		status: "in-progress",
+	},
 	{
 		title: "Streamer Landing Page",
 		description:
@@ -58,23 +74,6 @@ export const projects = [
 		live: "#",
 		github: "https://github.com/EstefaniaYepiz/Grocery-shopping-list",
 		image: "/Images/taskList.png",
-		status: "in-progress",
-	},
-	{
-		title: "Admin Dashboard (Ongoing)",
-		description:
-			"A scalable admin panel built with Next.js featuring user management, dynamic routing, search/filtering, pagination, and dark mode.",
-		details:
-			"A modern admin dashboard built with Next.js and React, designed to simulate real-world admin panel functionality.The application includes a fully functional user management system with CRUD operations, dynamic routing for user details, and advanced UI features such as search, filtering, sorting, and pagination. Data is persisted using localStorage to simulate backend behavior. The dashboard is structured using reusable components and shared layouts, ensuring scalability and maintainability. A dark mode system is also implemented to enhance user experience. This project is actively evolving, with planned improvements including backend integration, authentication, and advanced analytics.",
-		stack: [
-			"Next.js (App Router)",
-			"React",
-			"JavaScript (ES6+)",
-			"CSS Modules",
-		],
-		live: "https://amind-dashboard-652nvf2c0-estefaniayepizs-projects.vercel.app/dashboard",
-		github: "https://github.com/EstefaniaYepiz/Amind-Dashboard",
-		image: "/Images/dashboard.png",
 		status: "in-progress",
 	},
 ];
